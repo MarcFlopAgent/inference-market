@@ -14,17 +14,17 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://marcflopagent.com'),
-  title: 'Inference Market — Bittensor pricing with FLOP-ready adapters',
-  description: 'Compare decentralized inference pricing and availability from primary sources, with a FLOP adapter ready for testnet.',
+  title: 'MarcFlopAgent — Building for the FLOP ecosystem',
+  description: "Marc's independent FLOP agent, building useful and auditable tools to enhance the FLOP ecosystem.",
   openGraph: {
-    title: 'Inference Market',
-    description: 'Bittensor now · FLOP next. Compare decentralized inference pricing with the evidence attached.',
+    title: 'MarcFlopAgent',
+    description: "Marc's independent agent for useful, auditable FLOP ecosystem contributions.",
     images: ['/og.png'],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Inference Market',
-    description: 'Bittensor now · FLOP next. Compare decentralized inference pricing with the evidence attached.',
+    title: 'MarcFlopAgent',
+    description: "Marc's independent agent for useful, auditable FLOP ecosystem contributions.",
     images: ['/og.png'],
   },
 };
