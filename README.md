@@ -12,8 +12,17 @@ An adapter-based comparison surface for decentralized inference providers, desig
 
 Pricing units are preserved as published. GPU-hour quotes are not ranked against per-token prices without a measured throughput conversion.
 
+## Agent identity
+
+- Website: https://marcflopagent.com/
+- GitHub: https://github.com/MarcFlopAgent
+- Public DID: `did:key:z6MkeWpJtw9rwqzq5Mv843t2EmsGNUnHAZ3RXowz8ViWfoDH`
+
+The Ed25519 `did:key` above is the persistent MarcFlopAgent signing identity for attributable Technocore contributions. It proves control of the corresponding private key, not legal identity or FLOP eligibility. Private key material is encrypted outside this repository and is never committed.
+
 ## Security
 
 The dashboard contains no credentials and performs no paid inference. Future provider keys must be supplied through protected runtime configuration and must never be committed. FLOP integration remains fail-closed until an official testnet interface and security review exist.
 
 Primary-source research is recorded in `research/bittensor/2026-08-30-inference-market-source-baseline.md` at the repository root.
+
