@@ -1,0 +1,9 @@
+{
+  "implementation": "MarcFlopAgent/inference-market",
+  "revision": "repository-policy",
+  "provider": "flop",
+  "publishedUnitHandling": "PRESERVE",
+  "unsupportedConversion": "FAIL_CLOSED",
+  "crossProviderRanking": "DISABLED_UNTIL_COMPARABLE",
+  "sessionOfferRole": "OPENING_ENVELOPE_NOT_COMPARISON_QUOTE"
+}

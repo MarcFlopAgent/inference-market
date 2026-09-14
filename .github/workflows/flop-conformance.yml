@@ -1,0 +1,25 @@
+name: FLOP conformance
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  flop-market-boundary:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - id: conformance
+        uses: retardio73-boop/flop-conformance-lab@f9f3748b2f40d0d1d27471ad05028e81297c3459
+        with:
+          profile: flop-market-adapter
+          input: evidence/flop-market-adapter.json
+          out: conformance-report.json
+      - uses: actions/upload-artifact@v4
+        with:
+          name: flop-conformance-report
+          path: conformance-report.json
