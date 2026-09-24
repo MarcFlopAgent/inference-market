@@ -1,0 +1,22 @@
+{
+  "profile": "yellowpaper-3c97bbc-offline-v1",
+  "spec_commit": "3c97bbc8d6ba68cf2ea003ab88bc154aafdf105e",
+  "tariff": {
+    "rent_numerator": 0,
+    "rent_denominator": 1,
+    "setup_fee": 2000000000000000,
+    "retrieval_numerator": 0,
+    "retrieval_denominator": 1,
+    "request_fee": 0
+  },
+  "providers": [
+    {"reserved_encoded_bytes": 0, "activated_writes": 20, "acknowledged_encoded_bytes": 0, "acknowledged_requests": 0},
+    {"reserved_encoded_bytes": 0, "activated_writes": 20, "acknowledged_encoded_bytes": 0, "acknowledged_requests": 0},
+    {"reserved_encoded_bytes": 0, "activated_writes": 20, "acknowledged_encoded_bytes": 0, "acknowledged_requests": 0},
+    {"reserved_encoded_bytes": 0, "activated_writes": 20, "acknowledged_encoded_bytes": 0, "acknowledged_requests": 0},
+    {"reserved_encoded_bytes": 0, "activated_writes": 20, "acknowledged_encoded_bytes": 0, "acknowledged_requests": 0},
+    {"reserved_encoded_bytes": 0, "activated_writes": 20, "acknowledged_encoded_bytes": 0, "acknowledged_requests": 0}
+  ],
+  "term_blocks": 1,
+  "chain_fees": 0
+}
